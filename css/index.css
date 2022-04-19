@@ -225,3 +225,46 @@
     margin-top: 35px;
     background-color:rgba(198, 198, 198, 0.384);
 }
+/* 设置右侧搜索框样式 */
+.search-wapper{
+    height: 50px;
+    width: 296px;
+    background-color: #bfa;
+    float: right;
+    margin-top: 25px;
+
+}
+.search-wapper .search-btn{
+    float:left;
+    height: 50px;
+    width: 52px;
+    background-color: #fff;
+    padding: 0;
+    border: none;
+    color: #616161;
+    font-size: 18px;
+    border: 1px solid rgb(224, 224, 224);
+    
+    border-left:none;
+    transition: color  0.25s;
+}
+.search-wapper .search-inp{
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    padding: 0 10px;
+    border: none;
+    width: 244px;
+    font-size: 16px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+}
+.search-wapper .search-inp:focus,
+.search-wapper .search-inp:focus + button{
+    border-color: #ff6700;
+}
+.search-wapper .search-btn:hover{
+    background-color: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+}
