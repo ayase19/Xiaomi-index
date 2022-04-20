@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
 <link rel="stylesheet" href="./css/reset.css">
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./fa/FontAwesome/css/all.css">
+
 <body>
     <div class="top-bar-wapper">
         <div class="top-bar clearfix w">
@@ -35,7 +37,7 @@
                 <li><a href="javascprit:;">协议规则</a></li>
                 <li class="line">|</li>
                 <li><a class="app" href="javascprit:;">下载app
-                    <!-- 添加下拉层 -->
+                        <!-- 添加下拉层 -->
                         <div class="qrcode">
                             <img src="./img/1111.png">
                             <span>小米商城APP</span>
@@ -48,9 +50,9 @@
             <div class="right">
                 <ul class="shop-cart">
                     <li><a href="javascript:;">
-                        <i class="fas fa-shopping-cart"></i>购物车（0）
-                        <!-- 设置下拉栏 -->
-                        <div class="shop-area"><span>购物车中还没有商品，赶紧选购吧！</span></div>
+                            <i class="fas fa-shopping-cart"></i>购物车（0）
+                            <!-- 设置下拉栏 -->
+                            <div class="shop-area"><span>购物车中还没有商品，赶紧选购吧！</span></div>
                         </a>
                     </li>
                 </ul>
@@ -72,34 +74,65 @@
                 <a class="home-logo" href="/"></a>
             </hl>
             <!-- 导航条 -->
-            <div class="nav-wapper clearfix">
+            <div class="nav-wapper">
                 <ul class="nav">
-                    <li><a class="all-goods" href="#">全部商品分类</a></li>
-                    <li><a href="#">Xiaomi手机</a></li>
-                    <li><a href="#">Redmi红米</a></li>
-                    <li><a href="#">电视</a></li>
-                    <li><a href="#">笔记本</a></li>
-                    <li><a href="#">平板</a></li>
-                    <li><a href="#">家电</a></li>
-                    <li><a href="#">路由器</a></li>
-                    <li><a href="#">服务</a></li>
-                    <li><a href="#">社区</a></li>
+                    <li class="nav-li all-goods-wapper"><a class="all-goods" href="#">全部商品分类</a>
+                        <!-- 创建左侧导航菜单 -->
+                        <ul class="left-menu">
+                            <li>
+                                <a href="#">手机 电话卡<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">电视 盒子<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">家电 插线板<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">出行 穿戴<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">智能 路由器<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">电源 配件<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">健康 儿童<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">耳机 音箱<i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">生活 箱包<i class="fas fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-li"><a href="#">Xiaomi手机</a></li>
+                    <li class="nav-li"><a href="#">Redmi红米</a></li>
+                    <li class="nav-li"><a href="#">电视</a></li>
+                    <li class="nav-li"><a href="#">笔记本</a></li>
+                    <li class="nav-li"><a href="#">平板</a></li>
+                    <li class="nav-li"><a href="#">家电</a></li>
+                    <li class="nav-li"><a href="#">路由器</a></li>
+                    <li class="nav-li"><a href="#">服务</a></li>
+                    <li class="nav-li"><a href="#">社区</a></li>
                     <div class="goods-info">
                         <ul class="show-goods w">
                             <li><a href="javascript:;">
-                                <img src="./img/3333.jpg">
-                                Xiaomi 12 Pro
-                            </a></li>
+                                    <img src="./img/3333.jpg">
+                                    Xiaomi 12 Pro
+                                </a></li>
                             <li class="line2"></li>
                             <li><a href="javascript:;">
-                                <img src="./img/5555.jpg">
-                                Xiaomi 12
-                            </a></li>
+                                    <img src="./img/5555.jpg">
+                                    Xiaomi 12
+                                </a></li>
                             <li class="line2"></li>
                             <li><a href="javascript:;">
-                                <img src="./img/2222.png">
-                                Xiaomi 12 X
-                            </a></li>
+                                    <img src="./img/2222.png">
+                                    Xiaomi 12 X
+                                </a></li>
                             <li class="line2"></li>
                             <li><a href="javascript:;"></a></li>
                             <li class="line2"></li>
@@ -112,10 +145,43 @@
             </div>
             <div class="search-wapper">
                 <from class="search">
-                    <input type="text" class="search-inp"><button class="search-btn"><i class="fas fa-search"></i></button>
+                    <input type="text" class="search-inp"><button class="search-btn"><i
+                            class="fas fa-search"></i></button>
                 </from>
             </div>
         </div>
     </div>
+    <div class="banner-wapper">
+        <div class="banner w">
+            <ul class="img-list">
+                <li>
+                    <a href="#">
+                        <img src="./img/banner1.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner2.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/banner3.png">
+                    </a>
+                </li>
+            </ul>
+            <div class="pointer">
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+            </div>
+            <!-- 图片切换按钮  无素材 -->
+            <!-- <div class="prev-next">
+                <a href="javascript:;" class="prev"></a>
+                <a href="javascript:;" class="next"></a>
+            </div> -->
+        </div>
+    </div>
 </body>
+
 </html>

@@ -302,3 +302,37 @@ ul.left-menu li a:hover{
     border-color: #ff6700;
     color: #fff;
 }
+/* 设置banner*/
+.banner{
+    position: relative;
+    height: 460px;
+}
+.banner img{
+    width: 1226px;
+    height: 460px;
+	object-fit: cover;
+    vertical-align: top;
+}
+.banner .img-list li{
+    position:absolute;
+}
+/* banner中的导航点 */
+.pointer{
+    position:absolute;
+    bottom: 22px;
+    right: 35px;
+}
+.banner .pointer a{
+    margin-left: 6px;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 2px solid rgba(168, 168, 168, 0.4);
+    border-radius: 50%;
+    background-color: rgba(75, 75, 75, 0.4);
+}
+.pointer a:hover,
+.pointer a:active{
+    border: 2px solid rgba(255, 243, 109, 0.164);
+    background-color: rgba(168, 168, 168, 0.4);
+}
