@@ -172,8 +172,39 @@
     padding-left: 58px;
 }
 /* 设置中间导航条的li */
-.nav-wapper li{
+.nav-wapper .nav-li{
     float: left;
+}
+.all-goods-wapper{
+    position: relative;
+}
+/* 设置左侧导航条的样式 */
+.left-menu{
+    padding: 20px 0;
+    width: 234px;
+    height: 420px;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    z-index: 999;
+    left: -120px;
+    line-height: 1;
+}
+ul.left-menu li a{
+    padding: 0 30px;
+    margin-right: 0px;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+ul.left-menu li a:hover{
+    color: #fff;
+    background-color: #ff6700;
+
+}
+.left-menu a i{
+    line-height: 42px;
+    float: right;
 }
 .nav-wapper li a{
     display: block;
@@ -207,7 +238,10 @@
     transition: height 0.25s;
 }
 /* head下拉层内容 */
-.nav .show-goods li:nth-child(2n-1){
+.show-goods li{
+    float: left;
+}
+.show-goods>li:nth-child(2n-1){
     width: 201px;
     height: 228px;
     float: left;
