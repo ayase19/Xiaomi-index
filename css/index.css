@@ -133,7 +133,7 @@
     height: 55px;
     display: block;
     background-color: #ff6700;
-    background-image: url(/MI/img/2222.png);
+    background-image: url(../img/2222.png);
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position:center;
@@ -146,7 +146,7 @@
     height: 55px;
     display: block;
     background-color: #ff6700;
-    background-image: url(/MI/img/5555.jpg);
+    background-image: url(../img/5555.jpg);
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position:center;
@@ -335,4 +335,14 @@ ul.left-menu li a:hover{
 .pointer a:active{
     border: 2px solid rgba(255, 243, 109, 0.164);
     background-color: rgba(168, 168, 168, 0.4);
+}
+/* 右下竖置工具栏  */
+.back-top{
+    width: 26px;
+    height: 206px;
+    background-color: #ff6700;
+    position: fixed;
+    bottom: 100px;
+    right:50%;
+    margin-right: -639px;
 }
